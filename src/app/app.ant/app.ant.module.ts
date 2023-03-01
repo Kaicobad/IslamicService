@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NzPageHeaderModule } from 'ng-zorro-antd/page-header';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
+import { NzGridModule } from 'ng-zorro-antd/grid';
 
 
 @NgModule({
@@ -9,11 +10,13 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
   imports: [
     CommonModule,
     NzPageHeaderModule,
-    NzLayoutModule
+    NzLayoutModule,
+    NzGridModule
   ],
   exports:[
     NzPageHeaderModule,
-    NzLayoutModule
+    NzLayoutModule,
+    NzGridModule
   ]
 })
 export class AppAntModule { }

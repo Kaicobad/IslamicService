@@ -1,3 +1,11 @@
 .site-page-header{
     background: #FFFFFF;
 }
+.navbar {
+    width: 360px;
+    height: 56px;
+    left: 0px;
+    top: 44px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
